@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/VicenteCaraT/tienda-segura-ISA#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "csurf": "^1.11.0",
     "express": "^5.3.0"
   }
 }
