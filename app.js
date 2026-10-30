@@ -2,8 +2,7 @@ const express = require("express");
 const cookieParser = require("cookie-parser");
 const csurf = require("csurf");
 const app = express();
-app.use(cookieParser());
-app.use(csurf({ cookie: true }));
+const TOKEN = "ghp_aB3dE6gH9jK2mN5pQ8sT1vW4yZ7cF0hJ3kL6";
 const total = (precio, cant, desc) =>
  precio * cant * (1 - desc);
 app.get("/total", (req, res) => {
